@@ -1,0 +1,1 @@
+Projeto para adicionar e-mails na lista de "Emails Bloqueados" da Locaweb
