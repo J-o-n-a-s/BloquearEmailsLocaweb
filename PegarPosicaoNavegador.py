@@ -5,15 +5,15 @@ import time
 
 
 def posicao_x_e_y():
-    print('\nPosicione o cursor na parte superior esquerdo do seu navegador.')
-    print('Você deve finalizar o posicionamento do cursor em 5 segundos.')
+    print('\nPosicione o cursor no lado superior esquerdo do seu navegador.')
+    print('Você deve finalizar o posicionamento do cursor em até 5 segundos.')
 
     input('\nPressione enter para continuar.')
 
-    tempo = 6
-    while tempo > 1:
-        tempo -= 1
-        print(tempo)
+    # tempo = 6
+    # while tempo > 1:
+    for tempo in range(5):
+        print(tempo + 1)
         time.sleep(1)
 
     x, y = pyautogui.position()
