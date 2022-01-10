@@ -10,8 +10,6 @@ def posicao_x_e_y():
 
     input('\nPressione enter para continuar.')
 
-    # tempo = 6
-    # while tempo > 1:
     for tempo in range(5):
         print(tempo + 1)
         time.sleep(1)
