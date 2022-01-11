@@ -4,7 +4,7 @@
 
 Atualmente, aqui na empresa, nós utilizamos o provedor de e-mails Locaweb devido ao bom custo/benefício. Em contrapartida, nós não temos uma opção que facilite a adição de diversos e-mails/domínios de uma única vez na lista de "Emails Bloqueados" ou "Emails Liberados".
 
-Infelizmente, nós acabamos recebendo muitos spams todos os dias e, como mencionado, não existe uma maneira rápida e fácil de adicionar diversos e-mails ou uma lista contendo e-mails/domínios para serem bloqueados, evitando assim o recebimento de e-mails que são indesejados. A única forma é a apresentada pela ajuda online do próprio site da Locaweb, que pode ser acessado no [neste link](https://ajuda.locaweb.com.br/wiki/criar-enderecos-liberados-e-bloqueados-email-locaweb/ "neste link").
+Infelizmente, nós acabamos recebendo muitos spams todos os dias e, como mencionado, não existe uma maneira rápida e fácil de adicionar diversos e-mails ou uma lista contendo e-mails/domínios para serem bloqueados, evitando assim o recebimento de e-mails que são indesejados. A única forma é a apresentada pela ajuda online do próprio site da Locaweb, que pode ser acessado [neste link](https://ajuda.locaweb.com.br/wiki/criar-enderecos-liberados-e-bloqueados-email-locaweb/ "neste link").
 
 ### Motivação
 
