@@ -1,31 +1,58 @@
+'''
+Antes de tudo:
+
+Bonito é melhor que feio.
+Explícito é melhor que implícito.
+Simples é melhor que complexo.
+Complexo é melhor do que complicado.
+Plano é melhor do que aninhado.
+Esparso é melhor do que denso.
+A legibilidade conta.
+Casos especiais não são especiais o suficiente para quebrar as regras.
+Embora a praticidade supere a pureza.
+Os erros nunca devem passar silenciosamente.
+A menos que explicitamente silenciado.
+Diante da ambiguidade, recuse a tentação de adivinhar.
+Deve haver uma - e de preferência apenas uma - maneira óbvia de fazer isso.
+Embora essa maneira possa não ser óbvia no início, a menos que você seja holandês.
+Agora é melhor do que nunca.
+Embora nunca seja melhor do que *agora*.
+Se a implementação é difícil de explicar, é uma má ideia.
+Se a implementação for fácil de explicar, pode ser uma boa ideia.
+Namespaces são uma ótima ideia -- vamos fazer mais desses!
+'''
+
 # Programa principal
 
 import PegarPosicaoNavegador as PePoNa
 import BotAdicionarEmailsBloqueados as BoAdEmBl
 import Posicionamento as Po
+import ctypes
 
-x = 0
-y = 0
+print('O objetivo deste programa é inserir uma lista de e-mails/domínios no servidor de e-mails da Locaweb'
+      ' a partir de um arquivo texto.\nCada linha do arquivo deverá conter um único e-mail ou domínio.')
+bloquear = input('\nDeseja bloquear a máquina no final da execução do programa?\n"S" para sim e "N" para não: ')
 
-correto = ''
-while correto != 'n':
+while True:
     x, y = PePoNa.posicao_x_e_y()
 
-    print('\nAgora você irá verificar os posicionamentos do cursor:')
-    print('   1 - Canto superior esquerdo, onde você indicou o início do browser;')
-    print('   2 - Campo onde deverão ser inseridos os e-mails que deverão ser bloqueados;')
-    print('   3 - Botão "Adicionar" e-mails que serão bloqueados;')
-    print('   4 - Botão "Salvar" lista de "Emails Bloqueados".')
-
-    input('\nPressione enter para continuar.')
-
-    seguinte = ''
-    while seguinte != 'n':
+    while True:
         Po.posicionamento(x, y)
-        seguinte = input('\nDeseja visualizar o posicionamento do cursor novamente? "s" para sim e "n" para não: ')
+        seguinte = input('\nDeseja visualizar o posicionamento do cursor novamente? "S" para sim e "N" para não: ')
+        if seguinte.lower() == 'n':
+            break
 
     correto = input('\nO posicionamento está incorreto? Deseja repetir o posicionamento?'
-                    '\n"s" para sim e "n" para não: ')
+                    '\n"S" para sim e "N" para não: ')
+    if correto.lower() == 'n':
+        break
+ret, arquivo = BoAdEmBl.leitura_arquivo()
+if ret == 0:
+    BoAdEmBl.adicionar_emails(x, y, arquivo)
+else:
+    print('\n Infelizmente não foi possível concluir a execução do programa corretamente.', end='')
 
-BoAdEmBl.adicionar_emails(x, y)
-input('\n\nPressione enter para continuar.')
+if bloquear.lower() == 's':
+    ctypes.windll.user32.LockWorkStation()
+
+input('\n\nPressione enter para finalizar o programa...')
