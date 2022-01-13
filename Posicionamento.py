@@ -20,3 +20,6 @@ def posicionamento(x, y):
     pyautogui.moveTo(x=x + 825, y=y + 255)
     time.sleep(1.5)
     pyautogui.moveTo(x=x + 315, y=y + 80)
+
+    ret = input('\nDeseja visualizar o posicionamento do cursor novamente? "S" para sim e "N" para não: ')
+    return ret

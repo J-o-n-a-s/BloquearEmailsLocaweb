@@ -37,8 +37,7 @@ while True:
     x, y = PePoNa.posicao_x_e_y()
 
     while True:
-        Po.posicionamento(x, y)
-        seguinte = input('\nDeseja visualizar o posicionamento do cursor novamente? "S" para sim e "N" para não: ')
+        seguinte = Po.posicionamento(x, y)
         if seguinte.lower() == 'n':
             break
 
@@ -46,7 +45,9 @@ while True:
                     '\n"S" para sim e "N" para não: ')
     if correto.lower() == 'n':
         break
+
 ret, arquivo = BoAdEmBl.leitura_arquivo()
+
 if ret == 0:
     BoAdEmBl.adicionar_emails(x, y, arquivo)
 else:
