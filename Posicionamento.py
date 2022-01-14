@@ -21,5 +21,12 @@ def posicionamento(x, y):
     time.sleep(1.5)
     pyautogui.moveTo(x=x + 315, y=y + 80)
 
-    ret = input('\nDeseja visualizar o posicionamento do cursor novamente? "S" para sim e "N" para não: ')
+    while True:
+        ret = input('\nDeseja visualizar o posicionamento do cursor novamente? "S" para sim e "N" para não: ')
+        if ret.lower() == 's':
+            break
+        elif ret.lower() == 'n':
+            break
+        else:
+            print('\nOpção inválida. Selecione uma opção válida.')
     return ret

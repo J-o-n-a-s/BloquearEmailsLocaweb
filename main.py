@@ -41,8 +41,16 @@ while True:
         if seguinte.lower() == 'n':
             break
 
-    correto = input('\nO posicionamento está incorreto? Deseja repetir o posicionamento?'
-                    '\n"S" para sim e "N" para não: ')
+    while True:
+        correto = input('\nO posicionamento está incorreto? Deseja repetir o posicionamento?'
+                        '\n"S" para sim e "N" para não: ')
+        if correto.lower() == 's':
+            break
+        elif correto.lower() == 'n':
+            break
+        else:
+            print('\nOpção inválida. Selecione uma opção válida.')
+
     if correto.lower() == 'n':
         break
 
