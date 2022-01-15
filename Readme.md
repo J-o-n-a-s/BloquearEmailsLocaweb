@@ -67,4 +67,8 @@ O arquivo TXT pode ser criado com o auxílio de uma planilha em Excel, que facil
 
  ### Instalação e execução do projeto
 
+ ...
+
  ### Licença
+
+ ...
