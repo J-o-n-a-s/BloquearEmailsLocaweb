@@ -1,12 +1,12 @@
 # Projeto para adicionar e-mails na lista de "Emails Bloqueados" ou "Emails Liberados" da Locaweb
 
-** SEJA BEM-VINDO A ESTE REPOSITÓRIO!!! **
+**SEJA BEM-VINDO A ESTE REPOSITÓRIO!!!**
 
 ------------
 
 Note que este é o meu primeiro projeto em Python e o primeiro compartilhado no GitHub. Cada dia que passa eu aprendo um pouco mais sobre o Python e assim irei melhorando o código do programa.
 
-** Instruções **
+**Instruções**
 
  - *Fork* este repositório;
  - Clone seu repositório *forked*;
