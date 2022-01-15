@@ -31,7 +31,7 @@ Como a plataforma da Locaweb não me permite adicionar uma lista de e-mail, nós
 
 ## Descrição do projeto
 
-#### Inserção manual
+### Inserção manual
 
 Em primeiro lugar vou explicar como é realizada a adição manual dos e-mails/domínios no servidor da Locaweb:
 
@@ -51,13 +51,13 @@ Em primeiro lugar vou explicar como é realizada a adição manual dos e-mails/d
 6. Clique no botão "Adicionar";
 7. Ao fim da inserção dos e-mails/domínios, clique no botão "Salvar".
 
-#### Inserção automatizada
+### Inserção automatizada
 
 Fundamentalmente a ideia da programação em Python é realizar os passos 5, 6 e 7 descritos acima, porém, de forma automatizada e a partir da leitura de um arquivo TXT contendo uma lista com todos os e-mails/domínios que desejamos adicionar. Importante salientar que em cada linha do arquivo TXT deve conter apenas um único e-mail ou domínio.
 
 O arquivo TXT pode ser criado com o auxílio de uma planilha em Excel, que facilitará a variações dos e-mails com o ajuste de algumas células, colunas e funções. Futuramente posso pensar em adicionar um módulo no programa para realizar a criação do arquivo TXT sem a necessidade do auxílio de uma planilha no Excel.
 
-##### Bibliotecas e recursos utilizados
+#### Bibliotecas e recursos utilizados
 
  - PyAutoGUI -> Fundamental para posicionamento do cursor do mouse e simulação do pressionamento de teclas do teclado;
  - Time -> Para adição de tempo e registro do início, fim e duração do processo;
