@@ -43,9 +43,9 @@ Em primeiro lugar vou explicar como é realizada a adição manual dos e-mails/d
 3. Do lado esquerdo do navegador clique em "Filtros e Regras";
 4. Emails Bloqueados ou Emails Liberados;
 
- ![Emails Bloqueados](https://www.locaweb.com.br/ajuda/wp-content/uploads/2018/05/emails_bloqueados-01.png "Emails Bloqueados")
+ ![Emails Bloqueados](https://www.locaweb.com.br/ajuda/wp-content/uploads/2020/06/emails_bloqueados-01.png "Emails Bloqueados")
 
- ![Emails Liberados](https://www.locaweb.com.br/ajuda/wp-content/uploads/2018/05/emails_liberados-02.png "Emails Liberados")
+ ![Emails Liberados](https://www.locaweb.com.br/ajuda/wp-content/uploads/2020/06/emails_liberados-02.png "Emails Liberados")
 
 5. Inserir no campo o endereço de e-mail, ou do domínio que deseja bloquear, ou liberar;
 6. Clique no botão "Adicionar";
