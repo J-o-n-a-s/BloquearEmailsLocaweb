@@ -38,7 +38,7 @@ Em primeiro lugar vou explicar como é realizada a adição manual dos e-mails/d
 1. Faça o login em seu e-mail;
 2. Clique sobre o seu nome e selecione "Configurações";
 
- ![Configuração](https://ajuda.locaweb.com.br/files/2018/05](https://www.locaweb.com.br/ajuda/wiki/como-criar-e-excluir-filtro-de-mensagens-email-locaweb/config_filtro_web_novo.jpg "Configuração")
+ ![Configuração](https://www.locaweb.com.br/ajuda/wp-content/uploads/2018/05/config_filtro_web_novo.jpg "Configuração")
 
 3. Do lado esquerdo do navegador clique em "Filtros e Regras";
 4. Emails Bloqueados ou Emails Liberados;
