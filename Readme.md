@@ -21,7 +21,7 @@ Note que este é o meu primeiro projeto em Python e o primeiro compartilhado no 
 
 Atualmente, aqui na empresa, nós utilizamos o provedor de e-mails Locaweb devido ao bom custo/benefício. Em contrapartida ao seu bom custo/benefício, ele fica um pouco a desejar em alguns aspectos, como por exemplo, nós não termos uma opção que facilite a adição de diversos e-mails/domínios de uma única vez na lista de "Emails Bloqueados" ou "Emails Liberados".
 
-Infelizmente, nós acabamos recebendo muitos spams todos os dias e, como mencionado, não existe uma maneira rápida e fácil de adicionar diversos e-mails/domínios para serem bloqueados, evitando assim o recebimento de e-mails que são indesejados, ou liberados, para garantir que e-mails importantes não caiam na caixa de spam. A única forma disponível é a apresentada pela ajuda online do próprio site da Locaweb. Ela pode ser acessada [neste link](https://ajuda.locaweb.com.br/wiki/criar-enderecos-liberados-e-bloqueados-email-locaweb/ "neste link").
+Infelizmente, nós acabamos recebendo muitos spams todos os dias e, como mencionado, não existe uma maneira rápida e fácil de adicionar diversos e-mails/domínios para serem bloqueados, evitando assim o recebimento de e-mails que são indesejados, ou liberados, para garantir que e-mails importantes não caiam na caixa de spam. A única forma disponível é a apresentada pela ajuda online do próprio site da Locaweb. Ela pode ser acessada [neste link](https://www.locaweb.com.br/ajuda/wiki/como-criar-e-excluir-filtro-de-mensagens-email-locaweb/ "neste link").
 
 ## Motivação
 
@@ -43,9 +43,9 @@ Em primeiro lugar vou explicar como é realizada a adição manual dos e-mails/d
 3. Do lado esquerdo do navegador clique em "Filtros e Regras";
 4. Emails Bloqueados ou Emails Liberados;
 
- ![Emails Bloqueados](https://ajuda.locaweb.com.br/files/2020/06/emails_bloqueados-01.png "Emails Bloqueados")
+ ![Emails Bloqueados](https://www.locaweb.com.br/ajuda/wp-content/uploads/2018/05/emails_bloqueados-01.png "Emails Bloqueados")
 
- ![Emails Liberados](https://ajuda.locaweb.com.br/files/2020/06/emails_liberados-02.png "Emails Liberados")
+ ![Emails Liberados](https://www.locaweb.com.br/ajuda/wp-content/uploads/2018/05/emails_liberados-02.png "Emails Liberados")
 
 5. Inserir no campo o endereço de e-mail, ou do domínio que deseja bloquear, ou liberar;
 6. Clique no botão "Adicionar";
