@@ -71,4 +71,4 @@ O arquivo TXT pode ser criado com o auxílio de uma planilha em Excel, que facil
 
  ## Licença
 
- MIT
+ MIT License
