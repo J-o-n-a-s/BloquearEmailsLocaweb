@@ -12,8 +12,7 @@
 [stars-url]: https://github.com/J-o-n-a-s/BloquearEmailsLocaweb/stargazers
 [issues-shield]: https://img.shields.io/github/issues/J-o-n-a-s/BloquearEmailsLocaweb.svg?style=for-the-badge
 [issues-url]: https://github.com/J-o-n-a-s/BloquearEmailsLocaweb/issues
-[license-shield]: https://img.shields.io/github/license/J-o-n-a-s/BloquearEmailsLocaweb.svg?style=for-the-badge
-[license-url]: https://github.com/J-o-n-a-s/BloquearEmailsLocaweb/blob/master/LICENSE
+
 
 # Projeto para adicionar e-mails na lista de "Emails Bloqueados" ou "Emails Liberados" da Locaweb
 
